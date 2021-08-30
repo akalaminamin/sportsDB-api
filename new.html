@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sport DB API</title>
+</head>
+<body>
+    <!-- Sport db api data load start-->
+    <h3 class="text-center text-dark my-4">Search your favorite sports team</h3>
+    <div class="input-group mb-3 w-50 mx-auto">
+        <input type="text" class="form-control" placeholder="Seach Your favorite sports" id="input">
+        <button class="btn btn-outline-secondary" type="button" onclick="searchSports()">Search</button>
+    </div>
+    <div class="row row-cols-1 row-cols-md-1 g-4 w-50 mx-auto" id="singleData">
+        
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4 mt-5" id="sportsWrapper">
+            
+    </div>
+    <!-- Sport db api data load end-->
+
+    <!-- Js file -->
+    <script src="sportsdb.js"></script>
+</body>
+</html>
